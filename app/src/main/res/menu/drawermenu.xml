@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/nav_deals"
+        android:checked="true"
+        android:icon="@drawable/homeicon"
+      />
+    <item
+        android:id="@+id/nav_partnersffdd1"
+        android:icon="@drawable/map"
+        />
+
+    <item
+        android:id="@+id/nav_partners"
+        android:icon="@drawable/event"
+       />
+
+    <item
+        android:id="@+id/nav_partnersffdd"
+        android:icon="@drawable/person"
+   />
+
+
+    <item
+        android:id="@+id/nav_partnersfqqf"
+        android:icon="@drawable/staricon"
+        />
+
+
+</menu>

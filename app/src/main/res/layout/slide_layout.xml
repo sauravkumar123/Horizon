@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageview1"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Smoke Show"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:textSize="27dp"
+        android:layout_marginHorizontal="30dp"
+        android:id="@+id/textview" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="Dj Reptile -Major Taser"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="30dp"
+      />
+</androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
